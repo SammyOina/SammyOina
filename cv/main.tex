@@ -1,0 +1,295 @@
+%-------------------------
+% Resume in Latex
+% Author
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Sammy Kerata Oina} % Your Name
+\newcommand{\course}{Your Course} % Your Course
+\newcommand{\roll}{XXXXXX} % Your Roll No.
+\newcommand{\phone}{715645950} % Your Phone Number
+\newcommand{\emaila}{sammyoina@gmail.com} %Email 1
+\newcommand{\github}{SammyOina} %Github
+\newcommand{\website}{https://github.com/SammyOina} %Website
+\newcommand{\linkedin}{sammy-oina} %linkedin
+
+
+
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+%----------HEADING-----------------
+%\parbox{2.35cm}{%
+
+%\includegraphics[width=2cm,clip]{logo.png}
+
+%}
+\parbox{\dimexpr\linewidth-2.8cm\relax}{
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\LARGE \name} & +254-\phone\\
+  \href{mailto:\emaila}{\emaila} \\
+   \href{https://github.com/\github}{Github} $|$ \href{\website}{Website}\\
+  \href{https://www.linkedin.com/in/\linkedin/}{linkedin.com/in/\linkedin}
+\end{tabularx}
+}
+
+
+
+%-----------EDUCATION-----------------
+ \section{Education}
+   \resumeSubHeadingListStart
+     \resumeSubheading
+       {Jomo Kenyatta University of Agriculture and Technology}{}
+       {Bachelor of Science Mechatronics Engineering}{September. 2017 -- December. 2022 (Expected)}
+     \resumeSubheading
+       {Nairobi School}{}
+       {Kenya Certificate of Secondary Education;  Grade: A-}{December. 2016}
+   \resumeSubHeadingListEnd\vspace{-5mm}
+%\vspace{-2mm}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Novek}{}
+      {Cloud Engineer}{Jan 2022 - Present}
+      \resumeItemListStart
+    \item {Building golang applications to support IoT devices. Built tool to parse and report on IoT devices in the field.}
+    \item {
+    Built a dashboard aggregating data from IoT devices powered by elasticsearch to monitor devices remotely. Worked on anomaly detection and reporting to ensure optimum device uptime.}
+    \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {Mavuno Link } %Project Name
+      {Business to business platform delivering farm produce from farmers. 
+        } %Project Name, Location Name
+      {Aug. 2021} %Event Dates
+      {\href{https://github.com/QUALIS-LABS/IBM-Call-for-code-2021-zero-hunger-solution}{Github}}
+
+      \resumeItemListStart
+        \item {\textbf{Tools \& technologies used}: Golang, Kubernetes, IBM cloud}
+    \resumeItemListEnd
+    
+    
+    \resumeProject
+      {EnvIoT } %Project Name
+      {Garbage monitorig at JKUAT with IoT devices. Buuilt a dashboard to stream and visualize data. } %Project Name, Location Name
+      {Mar. 2022} %Event Dates
+      {\href{https://github.com/Envi-IoT}{Github}} %Website
+      \resumeItemListStart
+         \item {\textbf{Tools \& technologies used}: Golang, Kubernetes, Google Cloud Platform, python}
+        
+    \resumeItemListEnd
+    
+      
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+%\section{Key Courses Taken}
+% \resumeHeadingSkillStart
+%  \resumeSubItem{} % Category
+%    {Data Structure,Algorithms,DBMS,Machine Learning, Artificial Intelligence, Web Services, Operating System}
+%  \resumeSubItem{Operating Systems}
+%  {Windows, Linux*} 
+% \hfill \textit{\footnotesize{* Elementary proficiency}} \hspace{3mm}
+% \resumeHeadingSkillEnd
+
+\section{Technical Skills}
+ \resumeHeadingSkillStart
+  \resumeSubItem{Programming: } % Category
+    { Go, python, C/C++, Matlab}
+ \resumeSubItem{Tools: } % Category
+    {Git, Kubernetes, Docker, GCP, Azure, AWS } % Skills
+ %\resumeSubItem{Libraries/Frameworks: } % Category
+    %{Pandas, Numpy, scikit-learn, JQuery}
+    
+     %\resumeSubItem{Web Skills: } % Category
+    %{HTML/CSS/JS, ReactJS/NextJS}
+%  \resumeSubItem{Operating Systems}
+%  {Windows, Linux*} 
+% \hfill \textit{\footnotesize{* Elementary proficiency}} \hspace{3mm}
+ \resumeHeadingSkillEnd
+
+
+\section{Positions of Responsibility}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{Flight Control Lead, Nakuja Project} % Position
+    {Lead designs, plan meetings and delegate responsibilities} %Club,Event
+    {Present} %Tenure Period
+\resumePOR{IoT lead, Google Student Developer club} % Position
+    {Organize challenges, meetups and hackathons. } %Club,Event
+    {Sept. 2021 - Aug. 2022} %Tenure Period
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+
+\section{Achievements}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{Regional winner EMEA } % Award
+    {IBM call for code for project mavuno link. } % Event
+    {2022} %Event Year
+    
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+\section{Certifications}
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+\resumePOR{}{
+Google Africa Developer Scholarship Cloud Engineer
+}{}
+
+\resumePOR{}{
+IBM Call for Code 2021 Global Challenge - Middle East and Africa Regional Winner 
+}{}
+
+\resumePOR{}{
+IBM Master the Mainframe 2020 - Level 2
+}{}
+\resumePOR{}{
+AWS Machine Learning foundations
+}{}
+\resumePOR{}{
+IBM Qiskit Certificate of Quantum Excellence
+}{}
+\resumePOR{}{
+IBM Artificial Intelligence Analyst - Mastery Award 2019
+}{}
+\resumeSubHeadingListEnd
+
+
+
+\hspace*{-5mm}\rule{1.035\textwidth}{0.1mm}
+
+%-------------------------------------------
+\end{document}
