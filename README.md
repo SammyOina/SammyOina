@@ -1,7 +1,7 @@
 ### Hi there 👋, Sammy here
 \
 &nbsp;
-### I'm a Mechatronics engineering student, with a passion for all things tech
+### I'm a Mechatronics engineer, with a passion for all things tech
 \
 &nbsp;
 
