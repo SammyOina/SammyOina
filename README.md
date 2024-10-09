@@ -1,20 +1,14 @@
-### Hi there 👋, Sammy here
-\
-&nbsp;
-### I'm a Mechatronics engineer, with a passion for all things tech
-\
-&nbsp;
+# Hi there 👋, I'm Sammy
 
-Here are some ideas to get you started:
+I'm a Mechatronics engineer and Technical Lead, passionate about distributed systems, IoT, and confidential computing.
 
-- 🔭 I’m currently working on Stewart platform robot
-- 🌱 I’m currently learning Golang desktop application
-- 👯 I’m looking to collaborate on any python, go, IoT projects
-- 🤔 I’m looking for help with PCB review
-- 💬 Ask me about golang
+- 🔭 I'm currently working on privacy-preserving AI platforms and IoT solutions
+- 🌱 I'm learning more about confidential computing and advanced Go patterns
+- 👯 I'm looking to collaborate on Go, IoT, and distributed systems projects
+- 💬 Ask me about Golang, IoT protocols, or scaling microservices
+- 🛠️ Tech stack: Go, Python, C/C++, Docker, Kubernetes
 - 📫 How to reach me: sammyoina@gmail.com
-<!--- ⚡ Fun fact: -->
-
+- 🔗 LinkedIn: [sammy-oina](https://www.linkedin.com/in/sammy-oina)
 \
 &nbsp;
   ### ⚡ GitHub Stats
